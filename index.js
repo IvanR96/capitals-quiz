@@ -15,8 +15,6 @@ const db = new pg.Client({
 
 db.connect();
 
-
-
 let quiz = [
   { country: "France", capital: "Paris" },
   { country: "United Kingdom", capital: "London" },
